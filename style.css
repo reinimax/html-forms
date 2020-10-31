@@ -222,3 +222,16 @@ form > footer {
 .footer-links a:hover {
   text-decoration: underline;
 }
+
+/* Outside the flow */
+.privacy-btn {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  padding: 9px 11px;
+  font-size: 14px;
+  line-height: 150%;
+  border: 1px solid rgb(107, 108, 114);
+  border-radius: 3px;
+  background-color: rgb(107, 108, 114);
+}
