@@ -12,12 +12,39 @@ a {
   text-decoration: none;
 }
 
+button {
+  background-image: linear-gradient(rgb(22, 124, 204), rgb(0, 119, 197));
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
 /* Top-bar */
 .top-bar {
+  display: flex;
+  flex-direction: row-reverse;
   height: 40px;
   padding: 10px 0;
-  width: 100%;
-  background-color: blue;
+  width: 97vw;
+  margin: 0 auto;
+}
+
+.sign-in-btn {
+  font-size: 1.1em;
+  border: 1px solid black;
+  height: 32px;
+  padding: 0 20px;
+  margin-left: 10px;
+}
+
+.sign-in-btn img {
+  margin-right: 7px;
+}
+
+.sign-in-btn div {
+  padding-bottom: 7px;
 }
 
 /* Logo + Quicklinks */
@@ -49,11 +76,17 @@ form {
   border: 1px solid black;
 }
 
+button[type="submit"] {
+  padding: 6px 12px;
+  border: 1px solid rgb(0, 119, 197);
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 1px 1px 0px;
+}
+
 /* Bottom-bar */
 .bottom-bar {
   height: 59px;
   padding: 20px 0;
-  width: 80vw;
+  width: 97vw;
   margin: 0 auto;
   text-align: center;
 }
