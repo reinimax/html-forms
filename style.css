@@ -13,7 +13,7 @@ a {
 }
 
 button {
-  background-image: linear-gradient(rgb(22, 124, 204), rgb(0, 119, 197));
+  background-color: rgb(0, 119, 197);
   color: white;
   border-radius: 4px;
   cursor: pointer;
@@ -73,13 +73,105 @@ form {
   margin: 0 auto;
   padding: 30px;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid rgb(199, 199, 199);
+  color: rgb(76, 76, 76);
+}
+
+form > header {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 120%;
+}
+
+h2 {
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 110%;
+}
+
+.email-fieldset {
+  height: 95px;
+}
+
+.phone-fieldset {
+  height: 115px;
+}
+
+.pwd-fieldset {
+  height: 98px;
+}
+
+.pwd-fieldset img {
+  position: relative;
+  top: -30px;
+  left: 280px;
+  opacity: 20%;
+}
+
+label {
+  display: inline-block;
+  color: rgb(64, 64, 64);
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 6px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 34px;
+  border: 1px solid rgb(193, 197, 200);
+  border-radius: 3px;
+  padding: 0 6px 0 8px;
+}
+
+form small {
+  font-size: 10px;
+  padding: 5px 0;
 }
 
 button[type="submit"] {
   padding: 6px 12px;
+  width: 100%;
   border: 1px solid rgb(0, 119, 197);
   box-shadow: rgba(0, 0, 0, 0.75) 0px 1px 1px 0px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button[type="submit"]:hover {
+  background-image: linear-gradient(rgb(22, 124, 204), rgb(0, 119, 197));
+}
+
+button[type="submit"] img {
+  margin-right: 7px;
+}
+
+button[type="submit"] div {
+  padding-bottom: 7px;
+  font-size: 15.75px;
+  line-height: 22.5px;
+}
+
+.signup-disclaimer {
+  text-align: center;
+  font-style: italic;
+  color: rgb(117, 117, 117);
+  width: 90%;
+  height: 63px;
+  margin: 31px auto 0;
+}
+
+form > footer {
+  background-color: rgb(236, 238, 241);
+  color: rgb(141, 144, 150);
+  margin: 32px -30px -30px;
+  padding: 16px;
+  text-align: center;
 }
 
 /* Bottom-bar */
