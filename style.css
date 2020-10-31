@@ -54,6 +54,12 @@ button {
   height: 35px;
   margin: 0 auto;
   padding: 20px 0;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.logo a {
+  color: rgb(117, 117, 117);
 }
 
 .quick-links {
@@ -64,6 +70,16 @@ button {
 
 .quick-links li {
   display: inline-block;
+  font-size: 20px;
+  margin: 0 3px;
+}
+
+.quick-links li a {
+  color: rgb(127, 127, 127);
+}
+
+.quick-links li a img {
+  vertical-align: middle;
 }
 
 /* Form */
