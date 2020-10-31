@@ -1,0 +1,49 @@
+/* General - Utility */
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+/* Top-bar */
+.top-bar {
+  height: 40px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: blue;
+}
+
+/* Logo + Quicklinks */
+.logo {
+  display: block;
+  text-align: center;
+  height: 35px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.quick-links {
+  text-align: center;
+  height: 38px;
+  padding-bottom: 4px;
+}
+
+.quick-links li {
+  display: inline-block;
+}
+
+/* Form */
+form {
+  width: 318px;
+  height: 601px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/* Bottom-bar */
+.bottom-bar {
+  height: 59px;
+  padding: 20px 0;
+  width: 100%;
+  background-color: green;
+}
