@@ -1,6 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
 /* General - Utility */
 body {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(236, 238, 241);
+  color: rgb(80, 80, 80);
+  font: 400 12px/150% "Nunito", sans-serif;
+}
+
+a {
+  color: rgb(0, 119, 197);
+  text-decoration: none;
 }
 
 /* Top-bar */
@@ -44,6 +53,25 @@ form {
 .bottom-bar {
   height: 59px;
   padding: 20px 0;
-  width: 100%;
-  background-color: green;
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-links {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 2.5px;
+}
+
+.footer-links a {
+  color: rgb(80, 80, 80);
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
 }
